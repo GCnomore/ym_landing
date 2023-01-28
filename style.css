@@ -1,0 +1,44 @@
+body {
+   height: 100%;
+   margin: 0;
+   background: linear-gradient(#EB65B8,#8EB0FF);
+   scroll-behavior: smooth;
+}
+
+section {
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+section > div {
+   height: 100%;
+   width: 1024px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#section-1 {
+   background: linear-gradient(#FFCB9C,#EB65B8);
+   height: 100vh;
+}
+
+#section-2 {
+   background: linear-gradient(#EB65B8,#cb7fd0);
+}
+
+#section-3 {
+   background: linear-gradient(#CB7FD0,#b392e3);
+   height: 500px;
+   flex-direction: column;
+}
+
+#section-4 {
+   background: linear-gradient(#B392E3,#98a8f7);
+}
+
+footer {
+   background: linear-gradient(#98A8F7,#8eb0ff);
+}
