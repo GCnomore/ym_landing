@@ -21,20 +21,21 @@ section > div {
 }
 
 #section-1 {
-   background: linear-gradient(#FFCB9C,#EB65B8);
+   /* background: linear-gradient(#FFCB9C,#EB65B8); */
+   background-color: #eee;
    height: 100vh;
    padding-top: 100px;
 }
 
 #section-2 {
    /* background: linear-gradient(#EB65B8,#cb7fd0); */
-   padding: 10rem 0;
+   margin: 10rem 0;
 }
 
 #section-3 {
    /* background: linear-gradient(#CB7FD0,#b392e3); */
    flex-direction: column;
-   padding: 10rem 0;
+   margin: 10rem 0;
 }
 
 #section-4 {
